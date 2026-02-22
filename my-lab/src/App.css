@@ -1,0 +1,140 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Ariel, Helvetica, sans-serif;
+  background-color: #e5e5e5;
+}
+
+.SearchBar {
+  width: 350;
+  display: flexbox;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.homepage {
+  width: 350px;
+  display: flexbox -center;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.header {
+  display: flexbox center;
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+  border: 3px solid Blue;
+}
+
+.employee-list {
+  display: flex;
+  align-items: center;
+  /* padding: 5x; */
+  flex-direction: column;
+}
+
+
+.employee-list-item {
+  display: flexbox;
+  align-items: center;
+  padding:  2px;
+  border: 1px solid #ff4d4d;
+  margin-bottom: 2px;
+  background-color: #fafafa;
+  width: 100%;
+}
+.employee-avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 10%;
+  margin-right: 5px;
+}
+.employee-info h3 {
+  margin: 0;
+  font-size: 12px;
+  border-radius: 50%
+}
+.employee-info P {
+  color: gray;
+  font-size: 12px;
+}
+
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+ /*'Make both panels same width'*/
+.homepage,
+.employee-card {
+  width: 350px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+ /*'Employee card styling'*/ 
+.employee-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.employee-avatar-large {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}

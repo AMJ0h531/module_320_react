@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.homepage {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: White;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-block: 5px solid Blue;
+}
+
+.search-bar {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+}
+
+.employee-list {
+  padding: 10px;
+}
+
+.employee-list-item {
+  padding: 10px;
+}
